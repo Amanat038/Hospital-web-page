@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Background Image Example</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* styles.css */
+
+.container {
+    /* Set the background image */
+    background-image: url(./background.png);
+
+    /* Set background size, repeat, and position */
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+        padding: 20px;
+        color: white;
+    
+}
+
+
+.nav-head{
+   padding: 0 15%;
+   color: white;
+   padding: 10px 0;
+}
+
+.nav-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 20px;
+}
+.logo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li{
+    margin-right: 20px;
+    display: list-item;
+}
+.nav-links li a{
+    color: azure;
+    text-decoration: none;
+}
+
+#menu{
+    display: none;
+    cursor: pointer;
+   
+}
+
+.Getbuttion-1{   
+    display: block;
+}
+
+.Getbuttion-1 button {
+    background-color: rgb(0, 152, 234);
+    border: 0;
+    border-radius: 5px;
+    padding: 0px 40px;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background-color: #cc1212;
+    }
+
+    #menu{
+        display: block;
+        color: #fff;
+    }
+
+    .Getbuttion-1{
+        display: none;
+    }
+
+
+}
+
+
+.bestHospital-appoinment-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.bestHospital{
+    padding: 80px 0;
+    width: 27%;
+}
+
+.bestHospital h1{
+    color: white;
+    font-size: 65px;
+}
+
+.bestHospital p{
+    color: white;
+    font-size: 20px;
+}
+
+.Getbuttion-2 {
+    background-color: rgb(0, 152, 234);
+    border: 2px solid rgb(0, 152, 234);
+    border-radius: 30px;
+    padding: 16px 25px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.learnmore {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 16px 40px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.appoinmentsectionbox {  
+    padding: 80px 0;
+    
+}
+
+.Appoinment-container{
+    padding: 10px 26px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+
+.book-appointment-button {
+    background-color: rgb(0, 152, 234);
+    border: 0;
+    border-radius: 5px;
+    padding: 8% 23%;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    cursor: pointer;
+
+}
+.book-appointment {
+    text-align: center;
+}
+
+.information-box {
+    display: grid;
+    background-color: rgb(242, 242, 242);
+    border-radius: 5px;
+    padding: 5% 5%;
+    border: 2px solid rgb(184, 180, 180);
+    width: 80%;
+}
+
+.time-sloat {
+    background-color: rgb(242, 242, 242);
+    padding: 6% 0%;
+    border-radius: 5px;
+    border: 2px solid rgb(184, 180, 180);
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+.Leading-Medicine-section {
+   margin: 3% 0;
+}
+
+.leading{
+    text-align: center;
+    
+    
+}
+.leading h1{
+    font-size: 45px;
+    color: black;
+}
+.leading p{          
+    color: gray;
+}
+
+
+.speciality-boxs{
+    justify-content: center;    
+    display: grid;
+    grid-gap: 40px;
+
+}
+
+
+.speciality-container {
+    border: 2px solid rgb(184, 225, 248);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+ 
+  
+}
+
+.speciality-container:hover{
+    transform: scale(1.3);
+}
+
+.speciality-section{
+    display:flex;
+    background-color: rgb(134, 192, 225);
+    border-radius: 10px;
+    padding: 10px;
+    max-height: 100px;
+   
+}
+.speciality-section h3{
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    
+}
+
+i{
+    
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 20px;
+    
+}
+#group-color{
+    color: rgb(1, 192, 255);
+}
+
+
+.care-learn-buttion{
+    font-size: 15px;
+    display: flex;
+    background-color: transparent;
+    border: 0;
+    color: rgb(9, 132, 248);
+    cursor: pointer;
+}
+.features{
+    padding: 5px;
+}
+
+@media only screen and (min-width:768px) {
+     .speciality-boxs{ 
+        display: flex;
+        justify-content: center;
+        position: relative;
+        grid-gap: 20px;
+    }
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+.rating-section{
+    background-color: rgb(250, 248, 248);
+   
+    padding: 15px;
+    margin: 2% 0;
+    
+}
+
+.rate-boxs{
+    display: flex;
+    padding: 5% 16%;
+    justify-content: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap: 40px;
+    
+}
+
+.rating{
+    padding: 10px;
+    border: 2px solid rgb(195, 197, 198);
+    width: 100%;
+    background-color: white;
+}
+
+.stars{
+    color: rgb(255, 183, 0);
+    display: flex;
+    
+}
+
+.users{
+    border-radius: 50px;
+    width: 50px;
+}
+
+
+.faq-topics{
+    padding: 5% 16%;
+    justify-content: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    column-gap: 50px;
+    row-gap: 50px;
+
+}
+
+
+
+.faq-qures{
+    display: flex;
+}
+
+#arrow_forward-color{
+    color: rgb(0, 153, 255);
+}
+
+
+
+.pricing-section{
+    background-color: rgb(229, 228, 228);
+}
+
+.pricing-box{
+    display: flex;
+    padding: 5% 16%;
+    margin: auto;
+    justify-content: center;
+    column-gap: 8px;
+    font-size: 50px;
+    
+
+}
+
+
+.pricing-header{
+    background-color: white;
+    font-size:18px;
+     
+}
+
+
+.free-center{
+    text-align: center;
+    font-size: 25px;
+    
+}
+.p-text-in-pricing-section{
+    font-size: 16px;
+    color: rgb(130, 128, 128);
+   
+}
+.dollar-section{          
+    display: flex;
+    justify-content: center;
+    color: rgb(2, 148, 252);
+    
+    
+}
+
+.per-month{
+    display: flex; 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+} 
+
+.division-1{
+    text-align: center;   
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.per-month-dollar-bold{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.done-div{
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+
+}
+
+.done-span{
+    display: flex;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: rgb(10, 196, 62);
+    text-align: center;
+    padding: 8px;
+}
+
+.product-bok p{
+    padding: 10px 10px;
+}
+
+.product-bok-not-free{
+    display: flex;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: rgb(122, 122, 122);
+    text-align: center;
+    padding: 8px;
+}
+
+.product-bok-free p{
+    padding: 10px 10px;
+}
+
+#done-box{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#not-free{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width:786px){
+    .pricing-box{
+        display: grid;
+        padding: 5% 16%;
+        margin: auto;
+        justify-content: center; 
+        /* max-width: 1400px; */
+        row-gap: 10px;
+       
+       
+
+    }
+
+    .pricing-header{
+        background-color: white;
+        font-size:25px;
+       
+    
+    }
+}
+
+
+.division-row{
+    margin: 30px;
+    text-align: center;
+}
+
+.try-for-free-button{
+    border: 0;
+    border-radius: 4px;
+    background-color: rgb(70, 172, 236);
+    font-size: 15px;
+    padding: 15px 91px;
+    cursor: pointer;
+
+
+}
+
+.pricing-header:hover{
+    background-color: rgb(38, 39, 58);
+    color: white;
+   transform: scale(1.1);
+   
+}
+   
+.touch{
+    display: flex;
+    background-color: rgb(38, 39, 58);
+    justify-content: space-evenly;
+    padding: 50px 0;
+   
+}
+
+
+.get-in-touch{
+color: white;
+
+
+}
+
+.get{
+font-size: 35px;
+}
+
+.email-subs{
+padding: 50px;
+display: grid;
+display: flex;
+grid-template-columns: repeat(50px,1fr);
+/* justify-content: center; */
+}
+
+.emailtype{
+font-size: 15px;
+border: 0px;
+padding: 10px 100px 14px 14px;
+border-top-left-radius:3px;
+border-bottom-left-radius: 3px;
+
+
+}
+.subscribe{
+background-color: rgb(77, 193, 255);
+padding: 14px 27px;
+font-size: 17px;
+border: 0px;
+border-top-right-radius:3px;
+border-bottom-right-radius: 3px;
+cursor: pointer;
+}
+.subscribe:active{
+padding: 20px 35px;
+font-size: 22px;
+}
+
+
+@media only screen and (max-width:786px) {
+    .touch{
+        text-align: center;
+        display: grid;
+    
+}
+}
+
+
+.outer-body-of-social-info-bok{
+padding: 60px 60px;
+}
+
+.images{
+display: flex;
+width: 50px; 
+height: 50px;
+cursor: pointer;
+}
+
+.social-media{
+padding: 10px;
+}
+
+.information-features h1{
+font-weight: 70px;
+font-size: 28px;
+}
+
+
+.information-features ul{
+list-style-type: none;
+padding: 0;
+
+}
+
+.information-features ul li{
+padding: 10px 0px;
+}
+
+.information-features ul a{
+color: black;
+text-decoration: none;
+font-size: 15px;
+}
+
+.division-of-social-info-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width:786px){
+    .division-of-social-info-box{
+        display: grid; 
+        
+}
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Your webpage content goes here -->
+        <section class="nav-head">
+            <nav class="nav-section">
+                <div class="logo">
+                    <a href="#">BrandName</a> 
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                    
+                </ul>
+                <span id="menu" class="material-symbols-outlined">menu</span>
+                <div class="Getbuttion-1">
+                    <button> <p> Get Quote Now </p> </button>
+                </div>
+            </nav>
+        </section>
+
+        <section class="headsection">
+            <div class="bestHospital-appoinment-container">
+            <div class="bestHospital">
+                <h1>Meet the Best Hospital</h1>
+                <p>We know how large object will act, but things on a small scale.</p>
+                
+                <button class="Getbuttion-2">Get Quote Now </button>
+                <button class="learnmore">learn More</button>
+                
+            </div>
+            
+            <div class="appoinmentsectionbox ">
+                <div class="Appoinment-container">
+                    <div class="Appoinmentsection">
+                        <h1 class="book-appointment">Book Appointment</h1>
+                    </div>
+            
+                
+                <label for="Text" class="label-section">Name*</label><br>
+                    <input type="text" class="information-box" name="Text" placeholder="Full Name"> <br><br>
+                <label for="Text" class="label-section">Email address*</label> <br>
+                    <input type="email" class="information-box" name="emailaddress" placeholder="example@gmail.com" ><br><br>
+                <label for="Departements" class="label-section">Departement*</label> <br>
+                    <select name="Departements" class="information-box">
+                        <option value="cardiology">Cardiology</option>
+                        <option value="orthopedics">Orthopedics</option>
+                        <option value="radiology">Radiology</option>
+                        <option value="neurology">Neurology</option>
+                        <option value="gastroenterology">Gastroenterology</option>
+                        <option value="burn center">Burn center</option>
+                    </select> <br> <br>
+                <label for="time" class="label-section">Time*</label><br>
+                        
+                    <select name="time" class="time-sloat" placeholder="4:00 Available"> 
+                        <option value="4:00">12:00 pm Available</option>
+                        <option value="4:00">12:30 pm Available</option>
+                        <option value="4:00">1:00 pm Available</option>
+                        <option value="4:00">1:30 pm Available</option>
+                        <option value="4:00">4:00 pm Available</option>
+                        <option value="4:00">4:30 pm Available</option>
+                        <option value="4:00">5:30 pm Available</option>
+                        <option value="4:00">6:00 pm Available</option>
+                        <option value="4:00">6:30 pm Available</option>
+                        <option value="4:00">7:30 pm Available</option>
+                        <option value="4:00">8:00 pm Available</option>
+                        <option value="4:00">8:30 pm Available</option>
+                    </select>
+                    <input type="date" class="time-sloat"><br><br> <br>
+                    <div class="book-appointment">
+                        <button class="book-appointment-button">Book Appointment</button>
+                    </div> <br>         
+               
+                </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="Leading-Medicine-section">  
+        <div class="leading">
+            <h1>Leading Medicine</h1>        
+            <p>Problems trying to resolve the conflict between <br>the two major realms of Classical physics: Netwtonian mechanics</p>
+        </div>
+    
+        <section class="speciality-boxs">
+            
+                <div class="speciality-container">
+                   <div class="speciality-section">
+                    <i id="group-color" class="material-symbols-outlined">
+                        group
+                    </i>
+                        <h3>Emergrncy Case</h3>
+                    </div> 
+                        <div class="features">
+                            <p>- The best products start with Figma</p>
+                            <p>- Design with real data</p>
+                            <p>- Lightning fast prototyping </p>
+                            <p>- Fastest way to organize</p>
+                            <p>- Wark at speed of thought.</p>
+                            <button class="care-learn-buttion">learn More</button>
+    
+                        </div>               
+                    </div>
+    
+                <div class="speciality-container">
+                   <div class="speciality-section">
+                    <i id="group-color" class="material-symbols-outlined">
+                        group
+                    </i>
+                        <h3>Cancer Care</h3>
+                   </div> 
+                        <div class="features">
+                            <p>- The best products start with Figma</p>
+                            <p>- Design with real data</p>
+                            <p>- Lightning fast prototyping </p>
+                            <p>- Fastest way to organize</p>
+                            <p>- Wark at speed of thought.</p>
+                            <button class="care-learn-buttion">learn More</button>
+                        </div>
+                    </div>
+    
+                <div class="speciality-container">
+                    <div class="speciality-section">
+                     <i id="group-color" class="material-symbols-outlined">
+                         group
+                     </i>
+                         <h3>Health Queries</h3>
+                    </div> 
+                        <div class="features">
+                            <p>- The best products start with Figma</p>
+                            <p>- Design with real data</p>
+                            <p>- Lightning fast prototyping </p>
+                            <p>- Fastest way to organize</p>
+                            <p>- Wark at speed of thought.</p>
+                            <button class="care-learn-buttion">learn More</button>
+                            <br><br>
+                        </div>
+                    </div>
+           
+        </section>
+        
+    </section>
+    <section class="rating-section">
+        <div class="leading">
+            <h1>Leading Medicine</h1>        
+            <p>Problems trying to resolve the conflict between <br>the two major realms of Classical physics: Netwtonian mechanics</p>      
+        </div>
+    
+    
+        <section class="rate-boxs" >
+            <div class="rating">
+                <div class="stars">
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span>
+                </div>
+                <p>State helps you see how many more days you need to work to reach your financial goal.</p>
+                <img class="users" src="https://kangaroocareindia.com/static/media/dr-thrupthi-new.0faf7b7fc188451aa9ce.JPG" alt="user-img">
+            </div>
+            <div class="rating">
+                <div class="stars">
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span> 
+                <span class="material-symbols-outlined">star</span>
+                </div>
+                <p>State helps you see how many more days you need to work to reach your financial goal.</p>
+                <img class="users" src="https://hips.hearstapps.com/hmg-prod/images/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg?crop=0.66698xw:1xh;center,top&resize=1200:*" alt="user-img">
+            </div>
+            <div class="rating">
+                <div class="stars">
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span>
+                </div>
+                <p>State helps you see how many more days you need to work to reach your financial goal.</p>
+                <img class="users" src="https://www.felixhospital.com/sites/default/files/2022-11/dr-dk-gupta.jpg" alt="user-img">
+            </div>
+        </section>
+    
+    </section>
+    
+    <!-- --------------------------------------------------------------------------- -->
+    
+    <section class="faq-section">
+        <div class="leading">
+            <h1>FAQ</h1>        
+            <p>Problems trying to resolve the conflict between <br>the two major realms of Classical physics: Netwtonian mechanics</p>      
+        </div>
+    
+        <section class="faq-section-parts">
+            <div class="faq-topics">
+                <div class="faq-qures">
+                    <div>
+                    <span id="arrow_forward-color" class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+                    <div>                    
+                        <h1>the quick fox jumps over the lazy dog</h1>
+                        <p>Things on a very small scale behave like nothing</p>
+                    </div>
+                </div>
+    
+                <div class="faq-qures">
+                    <div>
+                    <span id="arrow_forward-color" class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+                    <div>                    
+                        <h1>the quick fox jumps over the lazy dog</h1>
+                        <p>Things on a very small scale behave like nothing</p>
+                    </div>
+                </div>
+    
+                <div class="faq-qures">
+                    <div>
+                    <span id="arrow_forward-color" class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+                    <div>                    
+                        <h1>the quick fox jumps over the lazy dog</h1>
+                        <p>Things on a very small scale behave like nothing</p>
+                    </div>
+                </div>
+    
+                <div class="faq-qures">
+                    <div>
+                    <span id="arrow_forward-color" class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+                    <div>                    
+                        <h1>the quick fox jumps over the lazy dog</h1>
+                        <p>Things on a very small scale behave like nothing</p>
+                    </div>
+                </div>
+    
+                <div class="faq-qures">
+                    <div>
+                    <span id="arrow_forward-color" class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+                    <div>                    
+                        <h1>the quick fox jumps over the lazy dog</h1>
+                        <p>Things on a very small scale behave like nothing</p>
+                    </div>
+                </div>
+    
+                <div class="faq-qures">
+                    <div>
+                    <span id="arrow_forward-color" class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+                    <div>                    
+                        <h1>the quick fox jumps over the lazy dog</h1>
+                        <p>Things on a very small scale behave like nothing</p>
+                    </div>
+                </div>
+    
+                <div class="faq-qures">
+                    <div>
+                    <span id="arrow_forward-color" class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+                    <div>                    
+                        <h1>the quick fox jumps over the lazy dog</h1>
+                        <p>Things on a very small scale behave like nothing</p>
+                    </div>
+                </div>
+    
+                <div class="faq-qures">
+                    <div>
+                    <span id="arrow_forward-color" class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+                    <div>                    
+                        <h1>the quick fox jumps over the lazy dog</h1>
+                        <p>Things on a very small scale behave like nothing</p>
+                    </div>
+                </div>
+    
+                <div class="faq-qures">
+                    <div>
+                    <span id="arrow_forward-color" class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+                    <div>                    
+                        <h1>the quick fox jumps over the lazy dog</h1>
+                        <p>Things on a very small scale behave like nothing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+    <!-- ----------------------------------------------------------------------------- -->
+    <section class="pricing-section">
+    
+            <div class="leading">
+                <h1>Pricing</h1>        
+                <p>Problems trying to resolve the conflict between <br>the two major realms of Classical physics: Netwtonian mechanics</p>      
+            </div>
+        
+            
+    <di class="pricing-box">
+        
+            <div class="pricing-header">
+                <div class="hole-row-division">
+                    <div>
+                        <div class="free-center">
+                            <h1>FREE</h1>
+                            <p class="p-text-in-pricing-section">Organize across all apps by hand</p>
+                        </div>
+                        <div class="dollar-section">
+                            <div class="per-month">
+                                <div class="division-1">
+                                    <span class="per-month-abc">0</span>
+                                </div>
+                                <div class="division-2">
+                                    <span class="per-month-dollar-bold">$</span><br>
+                                    <span class="per-month-xyz">Per Month</span>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="done-div">
+                            <div class="done-span">
+                                <span id="done-box" class="material-symbols-outlined">done</span>
+                            </div>
+                            <div class="product-bok">
+                                <p>Unlimited product updates</p> 
+                            </div>                      
+                        </div>
+                        <div class="done-div">
+                            <div class="done-span">
+                                <span id="done-box" class="material-symbols-outlined">done</span>
+                            </div>
+                            <div class="product-bok">
+                                <p>Unlimited product updates</p> 
+                            </div>                      
+                        </div>
+                        <div class="done-div">
+                            <div class="done-span">
+                                <span id="done-box" class="material-symbols-outlined">done</span>
+                            </div>
+                            <div class="product-bok">
+                                <p>Unlimited product updates</p> 
+                            </div>                      
+                        </div>
+                        <div class="done-div">
+                            <div class="product-bok-not-free">
+                                <span id="not-free" class="material-symbols-outlined">done</span>
+                            </div>
+                            <div class="product-bok">
+                                <p>1GB Cloud storage</p> 
+                            </div>                      
+                        </div>
+                        <div class="done-div">
+                            <div class="product-bok-not-free">
+                                <span id="not-free" class="material-symbols-outlined">done</span>
+                            </div>
+                            <div class="product-bok">
+                                <p>Email and community support </p> 
+                            </div>                      
+                        </div>
+                    </div>                
+                    <div class="division-row">
+                        <button class="try-for-free-button">Try for free</button>
+                    </div>
+                </div>
+            </div>
+        
+    
+    
+        
+            <div class="pricing-header">
+                <div class="hole-row-division">
+                    <div>
+                        <div class="free-center">
+                            <h1>FREE</h1>
+                            <p class="p-text-in-pricing-section">Organize across all apps by hand</p>
+                        </div>
+                        <div class="dollar-section">
+                            <div class="per-month">
+                                <div class="division-1">
+                                    <span class="per-month-abc">9.99</span>
+                                </div>
+                                <div class="division-2">
+                                    <span class="per-month-dollar-bold">$</span><br>
+                                    <span class="per-month-xyz">Per Month</span>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div>
+                        <div class="done-div">
+                            <div class="done-span">
+                                <span id="done-box" class="material-symbols-outlined">done</span>
+                            </div>
+                            <div class="product-bok">
+                                <p>Unlimited product updates</p> 
+                            </div>                      
+                        </div>
+                        <div class="done-div">
+                            <div class="done-span">
+                                <span id="done-box" class="material-symbols-outlined">done</span>
+                            </div>
+                            <div class="product-bok">
+                                <p>Unlimited product updates</p> 
+                            </div>                      
+                        </div>
+                        <div class="done-div">
+                            <div class="done-span">
+                                <span id="done-box" class="material-symbols-outlined">done</span>
+                            </div>
+                            <div class="product-bok">
+                                <p>Unlimited product updates</p> 
+                            </div>                      
+                        </div>
+                        <div class="done-div">
+                            <div class="done-span">
+                                <span id="done-box" class="material-symbols-outlined">done</span>
+                            </div>
+                            <div class="product-bok">
+                                <p>1GB Cloud storage</p> 
+                            </div>                      
+                        </div>
+                        <div class="done-div">
+                            <div class="done-span">
+                                <span id="done-box" class="material-symbols-outlined">done</span>
+                            </div>
+                            <div class="product-bok">
+                                <p>Email and community support </p> 
+                            </div>                      
+                        </div>
+                    </div>                
+                    <div class="division-row">
+                        <button class="try-for-free-button">Try for free</button>
+                    </div>
+                </div>
+            </div>
+    
+    
+        
+            <div class="pricing-header">
+                <div class="hole-row-division">
+                    <div>
+                        <div class="free-center">
+                            <h1>FREE</h1>
+                            <p class="p-text-in-pricing-section">Organize across all apps by hand</p>
+                        </div>
+                        <div class="dollar-section">
+                            <div class="per-month">
+                                <div class="division-1">
+                                    <span class="per-month-abc">19.99</span>
+                                </div>
+                                <div class="division-2">
+                                    <span class="per-month-dollar-bold">$</span><br>
+                                    <span class="per-month-xyz">Per Month</span>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div>
+                        <div class="done-div">
+                            <div class="done-span">
+                                <span id="done-box" class="material-symbols-outlined">done</span>
+                            </div>
+                            <div class="product-bok">
+                                <p>Unlimited product updates</p> 
+                            </div>                      
+                        </div>
+                        <div class="done-div">
+                            <div class="done-span">
+                                <span id="done-box" class="material-symbols-outlined">done</span>
+                            </div>
+                            <div class="product-bok">
+                                <p>Unlimited product updates</p> 
+                            </div>                      
+                        </div>
+                        <div class="done-div">
+                            <div class="done-span">
+                                <span id="done-box" class="material-symbols-outlined">done</span>
+                            </div>
+                            <div class="product-bok">
+                                <p>Unlimited product updates</p> 
+                            </div>                      
+                        </div>
+                        <div class="done-div">
+                            <div class="done-span">
+                                <span id="done-box" class="material-symbols-outlined">done</span>
+                            </div>
+                            <div class="product-bok">
+                                <p>1GB Cloud storage</p> 
+                            </div>                      
+                        </div>
+                        <div class="done-div">
+                            <div class="done-span">
+                                <span id="done-box" class="material-symbols-outlined">done</span>
+                            </div>
+                            <div class="product-bok">
+                                <p>Email and community support </p> 
+                            </div>                      
+                        </div>
+                    </div>                
+                    <div class="division-row">
+                        <button class="try-for-free-button">Try for free</button>
+                    </div>
+                </div>
+            </div>
+        </div>           
+    </section>
+    
+    <section>
+        
+        <div class="touch">
+            
+            <div class="get-in-touch">
+                <h1 class="get">Get In Touch</h1>
+                <p>The gradual accumulation of information about atomic and<br> small-scale behaviour the first quarter of the 20th</p>
+            </div>
+            <div >
+                <div class="email-subs">
+                    
+                    <input class="emailtype" type="email" placeholder="Your Email">
+                    <button class="subscribe">Subscribe</button>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section>
+        
+            <div class="outer-body-of-social-info-bok">
+                <div class="division-of-social-info-box">
+                    <div class="information-features">
+                        <h1>Get In Touch</h1>
+                        <ul class="information-features-list">
+                            <li>
+                                <a href="#">the quick fox jumps over the lazy dog</a>
+                            </li>
+                            <li class="images">
+                                <img src="facebook (1).svg" alt="img" class="social-media">
+                                <img src="brand-instagram.svg" alt="img" class="social-media">
+                                <img src="twitter-emoji-512x421-a3nj51z3.png" alt="img" class="social-media">
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="information-features">
+                        <h1>Company info</h1>
+                        <ul >
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Carrier</a>
+                            </li>
+                            <li>
+                                <a href="#">We are hiring</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="information-features">
+                        <h1>Features</h1>
+                        <ul class="information-features-list">
+                            <li class="cont">
+                                <a href="#">Business Marketing</a>
+                            </li>
+                            <li>
+                                <a href="#">User Analytic</a>
+                            </li>
+                            <li>
+                                <a href="#">Live Chat</a>
+                            </li>
+                            <li>
+                                <a href="#">Unlimited Support</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="information-features">
+                        <h1>Resources</h1>
+                        <ul class="information-features-list">
+                            <li>
+                                <a href="#">IOS & Android</a>
+                            </li>
+                            <li>
+                                <a href="#">Watch a Demo</a>
+                            </li>
+                            <li>
+                                <a href="#">Customers</a>
+                            </li>
+                            <li>
+                                <a href="#">API</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+</body>
+</html>
